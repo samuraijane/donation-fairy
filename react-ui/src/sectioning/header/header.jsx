@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Greeting from '../../components/greeting'
 
 const Header = () => {
   return (
@@ -15,6 +16,7 @@ const Header = () => {
           <NavLink to="/donate">donate</NavLink>
         </li>
       </ul>
+      <Greeting />
     </header>
   );
 };
